@@ -10,7 +10,7 @@ A custom touch-controlled hybrid synthesizer, electronic organ, and acoustic pia
 This project features **hardware-level touch calibration**, dynamic octave shifting, custom sound envelope synthesis (decay/vibrato), and multiple instrument modes running on LovyanGFX.
 
 
-<img width="2048" height="1979" alt="ORG ESP32" src="https://github.com/user-attachments/assets/22ac6065-95d7-4933-9692-39d8b2d36582" />
+<img width="1080" height="900" alt="ORG ESP32" src="https://github.com/user-attachments/assets/22ac6065-95d7-4933-9692-39d8b2d36582" />
 
 ---
 
