@@ -1,4 +1,4 @@
-<img width="2048" height="1979" alt="image" src="https://github.com/user-attachments/assets/dc04a6b6-e8f0-47a3-9e3d-f30f2834275e" /># 🎹 CYD Hybrid Synthesizer & Organon
+# 🎹 CYD Hybrid Synthesizer & Organon
 
 [![Board](https://img.shields.io/badge/Board-ESP32--2432S035%20(CYD)-yellow.svg)](https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display)
 [![Framework](https://img.shields.io/badge/Framework-Arduino%20%2F%20PlatformIO-blue.svg)](https://platformio.org/)
@@ -8,9 +8,6 @@
 A custom touch-controlled hybrid synthesizer, electronic organ, and acoustic piano emulator built for the **Cheap Yellow Display (CYD)** ESP32 board (`ESP32-2432S035` / `ESP32-2432S028`).
 
 This project features **hardware-level touch calibration**, dynamic octave shifting, custom sound envelope synthesis (decay/vibrato), and multiple instrument modes running on LovyanGFX.
-
-
-<img width="1080" height="900" alt="ORG ESP32" src="https://github.com/user-attachments/assets/22ac6065-95d7-4933-9692-39d8b2d36582" />
 
 ---
 
@@ -54,3 +51,8 @@ To skip manual software inversion or axis re-mapping, the following matrix is di
 ```cpp
 // 8-element hardware calibration matrix for ST7796S + XPT2046 (Landscape)
 uint16_t calData[8] = {3842, 3882, 3847, 174, 378, 3803, 374, 145};
+
+
+<img width="720" height="695" alt="ORG ESP32" src="https://github.com/user-attachments/assets/ceb14dd2-4591-4a43-a2f0-307d56899ff3" />
+
+
