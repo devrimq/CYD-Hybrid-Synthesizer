@@ -5,6 +5,9 @@
 [![Graphics](https://img.shields.io/badge/Library-LovyanGFX-green.svg)](https://github.com/lovyan03/LovyanGFX)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
 
+<img width="720" height="695" alt="ORG ESP32" src="https://github.com/user-attachments/assets/7d90abd2-5029-437a-bd90-8d33b456701c" />
+
+
 A custom touch-controlled hybrid synthesizer, electronic organ, and acoustic piano emulator built for the **Cheap Yellow Display (CYD)** ESP32 board (`ESP32-2432S035` / `ESP32-2432S028`).
 
 This project features **hardware-level touch calibration**, dynamic octave shifting, custom sound envelope synthesis (decay/vibrato), and multiple instrument modes running on LovyanGFX.
@@ -51,8 +54,3 @@ To skip manual software inversion or axis re-mapping, the following matrix is di
 ```cpp
 // 8-element hardware calibration matrix for ST7796S + XPT2046 (Landscape)
 uint16_t calData[8] = {3842, 3882, 3847, 174, 378, 3803, 374, 145};
-
-
-<img width="720" height="695" alt="ORG ESP32" src="https://github.com/user-attachments/assets/ceb14dd2-4591-4a43-a2f0-307d56899ff3" />
-
-
